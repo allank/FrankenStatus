@@ -1,0 +1,1 @@
+Sinatra app displaying the current retrieved values

@@ -1,0 +1,7 @@
+serial_port: /dev/tty.usbmodem621
+new_relic:
+  api_key: your_new_relic_api_key
+  ewn_app: application_id
+  mus_app: application_id
+google:
+  api_key: your_google_analytics_api_key

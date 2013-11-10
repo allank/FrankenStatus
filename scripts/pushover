@@ -1,0 +1,2 @@
+sleep 30
+curl -X POST -d "token=<your pushover api token>&user=<your pushover user id>&message=$(ifconfig wlan0 | grep 'inet' | cut -d ':' -f2 | cut -d' ' -f1)" "https://api.pushover.net/1/messages.json"

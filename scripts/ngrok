@@ -1,0 +1,7 @@
+auth_token: <your ngrok auth token>
+
+tunnels:
+  arduino:
+    subdomain: "my-awesome-subdomain"
+    proto:
+      http: 80

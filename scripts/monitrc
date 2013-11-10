@@ -1,0 +1,6 @@
+# Partial from:
+#   /etc/monit/monitrc
+
+check process ngrok matching "/usr/local/bin/ngrok -config /etc/ngrok start arduino"
+  start program = "/usr/bin/screen -d -m /usr/local/bin/ngrok -config /etc/ngrok start arduino"
+  stop program = "/usr/bin/killall ngrok"
